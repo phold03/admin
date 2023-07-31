@@ -27,7 +27,7 @@
 
 </head>
 
-<body id="page-top">
+<body id="app">
 
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -149,7 +149,7 @@
     <!-- Page level custom scripts -->
     <script src="{{ asset('asset/js/demo/datatables-demo.js') }}"></script>
     <script src="{{ asset('asset/js/cloud-zoom.1.0.2.min.js') }}"></script>
-
+    <script src="{{ asset('js/admin.js') }}"></script>
 </body>
 
 </html>

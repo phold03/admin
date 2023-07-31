@@ -48,8 +48,8 @@
                                                                 <h6>Giấy phép kinh doanh</h6>
                                                             </div>
                                                             <div class="image-modal-confirm">
-                                                                <img src=" {{ $item->imagesAccuracy }}" width="400"
-                                                                    alt="">
+                                                                <img src="{{ env('IMAGE') . $item->imagesAccuracy }}"
+                                                                    width="400" alt="">
                                                             </div>
                                                         </div>
                                                         <div class="modal-footer">
